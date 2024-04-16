@@ -849,9 +849,6 @@ persist-tun
 keepalive 10 120
 topology subnet
 server $VPN_SUBNET
-script-security 3
-client-connect \"client-connect.sh\"
-client-disconnect \"client-disconnect.sh\"
 ifconfig-pool-persist ipp.txt" >>/etc/openvpn/server.conf
 
 	# DNS resolvers
@@ -1123,13 +1120,7 @@ verb 3" >>/etc/openvpn/client-template.txt
 		echo "compress $COMPRESSION_ALG" >>/etc/openvpn/client-template.txt
 	fi
 
-	#-------------------------
-	
-	# Copy up.sh-down.sh to /etc/openvpn folder
-	cp /home/ubuntu/scripts/client-connect.sh /etc/openvpn/client-connect.sh
-	cp /home/ubuntu/scripts/client-disconnect.sh /etc/openvpn/client-disconnect.sh
-	chmod +x /etc/openvpn/client-connect.sh
-	chmod +x /etc/openvpn/client-disconnect.sh
+
     #--------------------------------
 
 	# Generate the custom client.ovpn
