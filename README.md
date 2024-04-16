@@ -29,8 +29,8 @@ sudo bash openvpn-install.sh
 
 
 
-### Lisans
+## Lisans
 Bu script, MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için lisans dosyasını inceleyin.
 
-### Katkılar
+## Katkılar
 Bu script geliştirilmeye açıktır. Katkıda bulunmak isterseniz, lütfen bir pull talebi gönderin.
