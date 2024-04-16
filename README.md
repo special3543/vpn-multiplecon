@@ -30,8 +30,8 @@ Follow the instructions provided to configure the OpenVPN server.
 
 
 
-## Lisans
+## License
 This script is licensed under the MIT License. For more information, see the license file.
 
-## Katkılar
+## Contributions
 This script is open to contributions. If you'd like to contribute, please submit a pull request.
