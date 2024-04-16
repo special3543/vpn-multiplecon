@@ -1,8 +1,8 @@
 # OpenVPN Installation and Configuration Script
 This script allows you to automatically install and configure an OpenVPN server. The script was originally created by angristan. I have made some adjustments and republished it.
 ## Adjustments
--Multiple Connections from One .ovpn File: Users can now establish multiple connections using a single .ovpn file.<br />
--Selectable Subnet (Connection Capacity): Users can choose their desired subnet for connection..
+-Multiple connections from one .ovpn file: Users can now establish multiple connections using a single .ovpn file.<br />
+-Selectable subnet (Connection Capacity): Users can choose their desired subnet for connection..
 
 
 ## Usage
