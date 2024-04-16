@@ -1,24 +1,23 @@
-# OpenVPN Yükleme ve Yapılandırma Scripti
-Bu script, OpenVPN sunucusunu otomatik olarak yüklemenize ve yapılandırmanıza olanak tanır. Script, angristan tarafından orijinal olarak oluşturulmuştur. Ben üzerinde bazı değişiklikler yaparak tekrar yayınladım:
+# OpenVPN Installation and Configuration Script
+This script allows you to automatically install and configure an OpenVPN server. The script was originally created by angristan. I have made some adjustments and republished it.
 ## Adjustments
--Multiple connection from one .ovpn file.<br />
--Seçilebilir subnet(bağlantı kapasitesi).
+-Multiple Connections from One .ovpn File: Users can now establish multiple connections using a single .ovpn file.<br />
+-Selectable Subnet (Connection Capacity): Users can choose their desired subnet for connection..
 
 
-## Kullanım
-openvpn-install.sh dosyasını indirin:<br />
+## Usage
+Download the openvpn-install.sh file:<br />
 ```
 wget [https://github.com/special3543/vpn-multiplecon.git](https://github.com/special3543/vpn-multiplecon.git)
 ```
-Script'i çalıştırın:<br />
+Run the script:<br />
 ```
 sudo bash openvpn-install.sh
 ```
-İlgili talimatları takip edin ve OpenVPN sunucusunu yapılandırın.
-
+Follow the instructions provided to configure the OpenVPN server.
 
 ## Feature
--Ip limitation per user
+-IP Limitation per User: Users are restricted to a specified bandwith.
 
 
 
@@ -32,7 +31,7 @@ sudo bash openvpn-install.sh
 
 
 ## Lisans
-Bu script, MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için lisans dosyasını inceleyin.
+This script is licensed under the MIT License. For more information, see the license file.
 
 ## Katkılar
-Bu script geliştirilmeye açıktır. Katkıda bulunmak isterseniz, lütfen bir pull talebi gönderin.
+This script is open to contributions. If you'd like to contribute, please submit a pull request.
