@@ -8,7 +8,7 @@ Bu script, OpenVPN sunucusunu otomatik olarak yüklemenize ve yapılandırmanız
 ## Kullanım
 openvpn-install.sh dosyasını indirin:<br />
 ```
-wget [https://github.com/special3543/vpn-multiplecon.git](https://github.com/special3543/vpn-multiplecon.git)<br />
+wget [https://github.com/special3543/vpn-multiplecon.git](https://github.com/special3543/vpn-multiplecon.git)
 ```
 Script'i çalıştırın:<br />
 ```
