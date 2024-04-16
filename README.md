@@ -5,7 +5,7 @@ Bu script, OpenVPN sunucusunu otomatik olarak yüklemenize ve yapılandırmanız
 -Seçilebilir subnet(bağlantı kapasitesi).
 
 
-### Kullanım
+## Kullanım
 openvpn-install.sh dosyasını indirin:
 bash
 wget [https://github.com/angristan/openvpn-install/blob/master/openvpn-install.sh](https://github.com/special3543/vpn-multiplecon.git)
@@ -15,7 +15,7 @@ sudo bash openvpn-install.sh
 İlgili talimatları takip edin ve OpenVPN sunucusunu yapılandırın.
 
 
-### Feature
+## Feature
 -Ip limitation per user
 
 ### Lisans
