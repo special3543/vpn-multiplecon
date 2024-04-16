@@ -18,6 +18,17 @@ sudo bash openvpn-install.sh
 ## Feature
 -Ip limitation per user
 
+
+
+
+
+
+
+
+
+
+
+
 ### Lisans
 Bu script, MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için lisans dosyasını inceleyin.
 
