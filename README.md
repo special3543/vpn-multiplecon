@@ -1,6 +1,6 @@
 # OpenVPN Yükleme ve Yapılandırma Scripti
 Bu script, OpenVPN sunucusunu otomatik olarak yüklemenize ve yapılandırmanıza olanak tanır. Script, angristan tarafından orijinal olarak oluşturulmuştur. Ben üzerinde bazı değişiklikler yaparak tekrar yayınladım:
-### Adjustments
+## Adjustments
 -Multiple connection from one .ovpn file.
 -Seçilebilir subnet(bağlantı kapasitesi).
 
